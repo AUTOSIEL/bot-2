@@ -1,0 +1,289 @@
+2025-06-05 19:44:06,787 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-05 19:44:06,788 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-05 19:44:06,788 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-05 19:44:10,759 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-05 19:44:10,759 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-05 19:44:50,455 - INFO - Received /start command from user: ID=664515772, Username=Zubareev_D - [bot_logic.py:189 in send_welcome]
+2025-06-05 19:44:50,852 - ERROR - Критическая ошибка в работе polling: 'NoneType' object is not subscriptable - [app.py:321 in <module>]
+2025-06-05 19:44:50,852 - INFO - Бот остановлен. - [app.py:322 in <module>]
+2025-06-05 19:45:02,229 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-05 19:45:02,230 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-05 19:45:02,230 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-05 19:45:04,112 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-05 19:45:04,113 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-05 19:45:04,585 - INFO - Received /start command from user: ID=664515772, Username=Zubareev_D - [bot_logic.py:189 in send_welcome]
+2025-06-05 19:45:04,658 - ERROR - Критическая ошибка в работе polling: 'NoneType' object is not subscriptable - [app.py:321 in <module>]
+2025-06-05 19:45:04,659 - INFO - Бот остановлен. - [app.py:322 in <module>]
+2025-06-05 19:58:06,253 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-05 19:58:06,255 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-05 19:58:06,255 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-05 19:58:07,079 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-05 19:58:07,080 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-05 19:58:07,280 - INFO - Received /start command from user: ID=664515772, Username=Zubareev_D - [bot_logic.py:189 in send_welcome]
+2025-06-05 19:58:07,559 - ERROR - Критическая ошибка в работе polling: 'NoneType' object is not subscriptable - [app.py:321 in <module>]
+2025-06-05 19:58:07,560 - INFO - Бот остановлен. - [app.py:322 in <module>]
+2025-06-05 20:15:23,179 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-05 20:15:23,179 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-05 20:15:23,180 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-05 20:15:23,748 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-05 20:15:23,748 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-05 20:15:24,417 - INFO - Processing /start for user: ID=664515772, Username=Zubareev_D - [bot_logic.py:202 in send_welcome]
+2025-06-05 20:15:24,574 - WARNING - checkStatusUser: get_user_data вернула None для telegramID 664515772 - [bot_logic.py:176 in checkStatusUser]
+2025-06-05 20:15:24,594 - ERROR - Error updating state for user 664515772: 1054 (42S22): Unknown column 'state' in 'field list' - [db.py:98 in update_user_state]
+2025-06-05 20:15:24,597 - INFO - User data: {'id': 664515772, 'is_bot': False, 'first_name': 'Данил', 'username': 'Zubareev_D', 'last_name': None, 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None, 'is_premium': None, 'added_to_attachment_menu': None, 'can_connect_to_business': None, 'has_main_web_app': None} - [User.py:6 in __init__]
+2025-06-05 20:15:24,632 - ERROR - get_or_create_user вернула неожиданные данные: True - [bot_logic.py:222 in send_welcome]
+2025-06-05 20:15:24,737 - INFO - Processing /start for user: ID=664515772, Username=Zubareev_D - [bot_logic.py:202 in send_welcome]
+2025-06-05 20:15:24,767 - ERROR - Error updating state for user 664515772: 1054 (42S22): Unknown column 'state' in 'field list' - [db.py:98 in update_user_state]
+2025-06-05 20:15:24,768 - INFO - User data: {'id': 664515772, 'is_bot': False, 'first_name': 'Данил', 'username': 'Zubareev_D', 'last_name': None, 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None, 'is_premium': None, 'added_to_attachment_menu': None, 'can_connect_to_business': None, 'has_main_web_app': None} - [User.py:6 in __init__]
+2025-06-05 20:15:24,786 - ERROR - get_or_create_user вернула неожиданные данные: False - [bot_logic.py:222 in send_welcome]
+2025-06-05 20:15:46,938 - INFO - Message from 664515772 (Zubareev_D): А - [bot_logic.py:312 in handle_all_messages]
+2025-06-05 20:15:46,949 - ERROR - Error checking user info for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:107 in check_user_info]
+2025-06-05 20:15:46,950 - INFO - User data: {'id': 664515772, 'is_bot': False, 'first_name': 'Данил', 'username': 'Zubareev_D', 'last_name': None, 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None, 'is_premium': None, 'added_to_attachment_menu': None, 'can_connect_to_business': None, 'has_main_web_app': None} - [User.py:6 in __init__]
+2025-06-05 20:15:52,155 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:15:52,165 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:15:52,177 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:15:52,198 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:15:52,217 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:15:52,231 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:15:52,245 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:15:52,255 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:15:52,269 - ERROR - Error updating state for user 664515772: 1054 (42S22): Unknown column 'state' in 'field list' - [db.py:98 in update_user_state]
+2025-06-05 20:15:52,283 - ERROR - Error getting user state for user 664515772: 1054 (42S22): Unknown column 'state' in 'field list' - [db.py:272 in get_user_state]
+2025-06-05 20:15:59,184 - INFO - Message from 664515772 (Zubareev_D): Ага - [bot_logic.py:312 in handle_all_messages]
+2025-06-05 20:15:59,196 - ERROR - Error checking user info for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:107 in check_user_info]
+2025-06-05 20:15:59,196 - INFO - User data: {'id': 664515772, 'is_bot': False, 'first_name': 'Данил', 'username': 'Zubareev_D', 'last_name': None, 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None, 'is_premium': None, 'added_to_attachment_menu': None, 'can_connect_to_business': None, 'has_main_web_app': None} - [User.py:6 in __init__]
+2025-06-05 20:16:01,738 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:16:01,747 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:16:01,761 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:16:01,772 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:16:01,786 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:16:01,796 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:16:01,809 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:16:01,824 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:16:01,838 - ERROR - Error updating state for user 664515772: 1054 (42S22): Unknown column 'state' in 'field list' - [db.py:98 in update_user_state]
+2025-06-05 20:16:01,851 - ERROR - Error getting user state for user 664515772: 1054 (42S22): Unknown column 'state' in 'field list' - [db.py:272 in get_user_state]
+2025-06-05 20:30:00,208 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-05 20:30:00,209 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-05 20:30:00,210 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-05 20:30:00,963 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-05 20:30:00,963 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-05 20:30:18,105 - INFO - Message from 664515772 (Zubareev_D): а - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 20:30:18,114 - ERROR - Error checking user info for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:107 in check_user_info]
+2025-06-05 20:30:18,115 - INFO - User data: {'id': 664515772, 'is_bot': False, 'first_name': 'Данил', 'username': 'Zubareev_D', 'last_name': None, 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None, 'is_premium': None, 'added_to_attachment_menu': None, 'can_connect_to_business': None, 'has_main_web_app': None} - [User.py:6 in __init__]
+2025-06-05 20:30:20,176 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:30:20,186 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:30:20,202 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:30:20,217 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:30:20,230 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:30:20,242 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:30:20,261 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:30:20,272 - ERROR - Error saving answer for user 664515772: 1054 (42S22): Unknown column 'userInfo' in 'field list' - [bot_logic.py:69 in save_answer]
+2025-06-05 20:30:20,286 - ERROR - Error updating state for user 664515772: 1054 (42S22): Unknown column 'state' in 'field list' - [db.py:98 in update_user_state]
+2025-06-05 20:30:20,299 - ERROR - Error getting user state for user 664515772: 1054 (42S22): Unknown column 'state' in 'field list' - [db.py:272 in get_user_state]
+2025-06-05 21:07:33,326 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-05 21:07:33,327 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-05 21:07:33,327 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-05 21:07:33,805 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-05 21:07:33,805 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-05 21:07:34,224 - WARNING - checkStatusUser: get_user_data вернула None для telegramID 664515772 - [bot_logic.py:176 in checkStatusUser]
+2025-06-05 21:07:34,224 - INFO - Message from 664515772 (Zubareev_D): а - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:07:34,247 - INFO - User data: {'id': 664515772, 'is_bot': False, 'first_name': 'Данил', 'username': 'Zubareev_D', 'last_name': None, 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None, 'is_premium': None, 'added_to_attachment_menu': None, 'can_connect_to_business': None, 'has_main_web_app': None} - [User.py:6 in __init__]
+2025-06-05 21:07:34,410 - INFO - Saved answer for user 664515772: name = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:34,428 - INFO - Saved answer for user 664515772: communication_style = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:34,444 - INFO - Saved answer for user 664515772: focus = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:34,466 - INFO - Saved answer for user 664515772: task_put_off = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:34,485 - INFO - Saved answer for user 664515772: important_now = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:34,507 - INFO - Saved answer for user 664515772: assistant_goals = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:34,528 - INFO - Saved answer for user 664515772: timezone = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:34,548 - INFO - Saved answer for user 664515772: target_improvement = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:34,569 - INFO - Updated state for user 664515772: {'current_question': 0, 'chat_id': 664515772} - [db.py:95 in update_user_state]
+2025-06-05 21:07:38,862 - INFO - Saved answer for user 664515772: name = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:38,873 - INFO - Saved answer for user 664515772: communication_style = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:38,887 - INFO - Saved answer for user 664515772: focus = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:38,902 - INFO - Saved answer for user 664515772: task_put_off = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:38,915 - INFO - Saved answer for user 664515772: important_now = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:38,931 - INFO - Saved answer for user 664515772: assistant_goals = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:38,944 - INFO - Saved answer for user 664515772: timezone = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:38,961 - INFO - Saved answer for user 664515772: target_improvement = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:38,975 - INFO - Updated state for user 664515772: {'current_question': 0, 'chat_id': 664515772} - [db.py:95 in update_user_state]
+2025-06-05 21:07:42,565 - INFO - Message from 664515772 (Zubareev_D): даня - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:07:42,607 - INFO - Saved answer for user 664515772: name = даня - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:42,623 - INFO - Updated state for user 664515772: {'current_question': 1, 'chat_id': 664515772} - [db.py:95 in update_user_state]
+2025-06-05 21:07:46,729 - INFO - Message from 664515772 (Zubareev_D): Наставник - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:07:46,775 - INFO - Saved answer for user 664515772: communication_style = Наставник - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:47,085 - INFO - Updated state for user 664515772: {'current_question': 2, 'chat_id': 664515772} - [db.py:95 in update_user_state]
+2025-06-05 21:07:48,558 - INFO - Message from 664515772 (Zubareev_D): Работа/бизнес - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:07:48,601 - INFO - Saved answer for user 664515772: focus = Работа/бизнес - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:48,744 - INFO - Updated state for user 664515772: {'current_question': 3, 'chat_id': 664515772} - [db.py:95 in update_user_state]
+2025-06-05 21:07:49,734 - INFO - Message from 664515772 (Zubareev_D): Начать новое - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:07:49,775 - INFO - Saved answer for user 664515772: task_put_off = Начать новое - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:49,999 - INFO - Updated state for user 664515772: {'current_question': 4, 'chat_id': 664515772} - [db.py:95 in update_user_state]
+2025-06-05 21:07:51,101 - INFO - Message from 664515772 (Zubareev_D): Рост в доходах - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:07:51,140 - INFO - Saved answer for user 664515772: important_now = Рост в доходах - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:51,287 - INFO - Updated state for user 664515772: {'current_question': 5, 'chat_id': 664515772} - [db.py:95 in update_user_state]
+2025-06-05 21:07:52,280 - INFO - Message from 664515772 (Zubareev_D): Личный рост и развитие - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:07:52,326 - INFO - Saved answer for user 664515772: assistant_goals = Личный рост и развитие - [bot_logic.py:66 in save_answer]
+2025-06-05 21:07:52,500 - INFO - Updated state for user 664515772: {'current_question': 6, 'chat_id': 664515772} - [db.py:95 in update_user_state]
+2025-06-05 21:07:55,832 - INFO - Message from 664515772 (Zubareev_D): Пермь - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:07:55,874 - INFO - Saved answer for user 664515772: timezone = Пермь - [bot_logic.py:66 in save_answer]
+2025-06-05 21:08:12,184 - INFO - Updated timezone for user 664515772 - [db.py:119 in update_user_timezone]
+2025-06-05 21:08:12,195 - INFO - Updated state for user 664515772: {'current_question': 7, 'chat_id': 664515772} - [db.py:95 in update_user_state]
+2025-06-05 21:08:17,856 - INFO - Message from 664515772 (Zubareev_D): Обучение и рост - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:08:17,908 - INFO - Saved answer for user 664515772: target_improvement = Обучение и рост - [bot_logic.py:66 in save_answer]
+2025-06-05 21:08:18,053 - INFO - Updated state for user 664515772: {'current_question': 8, 'chat_id': 664515772} - [db.py:95 in update_user_state]
+2025-06-05 21:08:18,095 - INFO - Updated state for user 664515772: None - [db.py:95 in update_user_state]
+2025-06-05 21:08:18,301 - INFO - User info completed for user ID: 664515772 - [bot_logic.py:326 in complete_user_info_collection]
+2025-06-05 21:08:22,480 - INFO - Updated state for user 664515772: {'ai_request': True} - [db.py:95 in update_user_state]
+2025-06-05 21:08:30,829 - INFO - Message from 664515772 (Zubareev_D): напомни через час поесть - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:08:34,622 - INFO - Event saved and retrieved for user 1: {'id': 1} - [db.py:592 in save_event]
+2025-06-05 21:08:42,809 - INFO - Message from 664515772 (Zubareev_D): кто ты - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:09:06,489 - INFO - Message from 664515772 (Zubareev_D): что ты - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:09:21,513 - INFO - Message from 664515772 (Zubareev_D): а я кто ? - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:12:09,469 - INFO - Voice message from 664515772 (Zubareev_D) - [bot_logic.py:672 in handle_voice_message]
+2025-06-05 21:12:09,868 - ERROR - Ошибка обработки голосового сообщения от 664515772: [WinError 2] Не удается найти указанный файл - [bot_logic.py:701 in handle_voice_message]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\mymindai-main2\mymindai-main\backend\bot_logic.py", line 684, in handle_voice_message
+    convert_ogg_to_wav(ogg_path, wav_path)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\mymindai-main2\mymindai-main\backend\bot_logic.py", line 652, in convert_ogg_to_wav
+    subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1551, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+2025-06-05 21:12:09,994 - INFO - Удалён временный файл: voices/664515772_1749139929.ogg - [bot_logic.py:709 in handle_voice_message]
+2025-06-05 21:15:04,329 - INFO - Message from 664515772 (Zubareev_D): создай заметку мыть посуду - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:15:07,473 - INFO - Note saved and retrieved for user 1: {'id': 1} - [db.py:626 in save_note]
+2025-06-05 21:15:13,978 - INFO - Message from 664515772 (Zubareev_D): создай встречу с димой - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:15:36,002 - INFO - Message from 664515772 (Zubareev_D): в час дня без времени - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:16:10,249 - INFO - Message from 664515772 (Zubareev_D): на 06.05 - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:16:25,691 - INFO - Message from 664515772 (Zubareev_D): да - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:16:30,796 - INFO - Event saved and retrieved for user 1: {'id': 2} - [db.py:592 in save_event]
+2025-06-05 21:16:43,326 - INFO - Message from 664515772 (Zubareev_D): удали встречу - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:16:59,141 - INFO - Message from 664515772 (Zubareev_D): встреча с димой - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:17:02,894 - INFO - Remove event 2 - [db.py:191 in delete_event]
+2025-06-05 21:17:03,078 - ERROR - Error save msg for user 1: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`mindmyai`.`history_msgs`, CONSTRAINT `history_msgs_ibfk_2` FOREIGN KEY (`event_id`) REFERENCES `events` (`id`) ON DELETE SET NULL) - [db.py:537 in save_msg]
+2025-06-05 21:17:18,541 - INFO - Message from 664515772 (Zubareev_D): поставь будильник - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:36:48,412 - INFO - Processing /start for user: ID=1779571202, Username=VSTOROZHEV01 - [bot_logic.py:202 in send_welcome]
+2025-06-05 21:36:48,424 - WARNING - checkStatusUser: get_user_data вернула None для telegramID 1779571202 - [bot_logic.py:176 in checkStatusUser]
+2025-06-05 21:36:48,433 - INFO - Updated state for user 1779571202: None - [db.py:95 in update_user_state]
+2025-06-05 21:36:48,434 - INFO - User data: {'id': 1779571202, 'is_bot': False, 'first_name': 'Владимир', 'username': 'VSTOROZHEV01', 'last_name': None, 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None, 'is_premium': True, 'added_to_attachment_menu': None, 'can_connect_to_business': None, 'has_main_web_app': None} - [User.py:6 in __init__]
+2025-06-05 21:36:48,447 - ERROR - get_or_create_user вернула неожиданные данные: True - [bot_logic.py:222 in send_welcome]
+2025-06-05 21:37:08,810 - INFO - Message from 1779571202 (VSTOROZHEV01): Привет - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:37:08,849 - INFO - User data: {'id': 1779571202, 'is_bot': False, 'first_name': 'Владимир', 'username': 'VSTOROZHEV01', 'last_name': None, 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None, 'is_premium': True, 'added_to_attachment_menu': None, 'can_connect_to_business': None, 'has_main_web_app': None} - [User.py:6 in __init__]
+2025-06-05 21:37:13,527 - INFO - Saved answer for user 1779571202: name = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:37:13,539 - INFO - Saved answer for user 1779571202: communication_style = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:37:13,553 - INFO - Saved answer for user 1779571202: focus = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:37:13,568 - INFO - Saved answer for user 1779571202: task_put_off = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:37:13,583 - INFO - Saved answer for user 1779571202: important_now = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:37:13,599 - INFO - Saved answer for user 1779571202: assistant_goals = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:37:13,614 - INFO - Saved answer for user 1779571202: timezone = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:37:13,628 - INFO - Saved answer for user 1779571202: target_improvement = None - [bot_logic.py:66 in save_answer]
+2025-06-05 21:37:13,641 - INFO - Updated state for user 1779571202: {'current_question': 0, 'chat_id': 1779571202} - [db.py:95 in update_user_state]
+2025-06-05 21:37:22,088 - INFO - Message from 1779571202 (VSTOROZHEV01): Хозяин - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:37:22,119 - INFO - Saved answer for user 1779571202: name = Хозяин - [bot_logic.py:66 in save_answer]
+2025-06-05 21:37:22,131 - INFO - Updated state for user 1779571202: {'current_question': 1, 'chat_id': 1779571202} - [db.py:95 in update_user_state]
+2025-06-05 21:37:33,546 - INFO - Message from 1779571202 (VSTOROZHEV01): Стратег - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:37:33,584 - INFO - Saved answer for user 1779571202: communication_style = Стратег - [bot_logic.py:66 in save_answer]
+2025-06-05 21:37:34,075 - INFO - Updated state for user 1779571202: {'current_question': 2, 'chat_id': 1779571202} - [db.py:95 in update_user_state]
+2025-06-05 21:37:44,488 - INFO - Message from 1779571202 (VSTOROZHEV01): Саморазвитие - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:37:44,524 - INFO - Saved answer for user 1779571202: focus = Саморазвитие - [bot_logic.py:66 in save_answer]
+2025-06-05 21:37:45,704 - INFO - Updated state for user 1779571202: {'current_question': 3, 'chat_id': 1779571202} - [db.py:95 in update_user_state]
+2025-06-05 21:37:50,841 - INFO - Message from 664515772 (Zubareev_D): а - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:37:56,270 - INFO - Message from 1779571202 (VSTOROZHEV01): Доделать начатое - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:37:56,304 - INFO - Saved answer for user 1779571202: task_put_off = Доделать начатое - [bot_logic.py:66 in save_answer]
+2025-06-05 21:37:56,456 - INFO - Updated state for user 1779571202: {'current_question': 4, 'chat_id': 1779571202} - [db.py:95 in update_user_state]
+2025-06-05 21:38:18,389 - INFO - Message from 1779571202 (VSTOROZHEV01): Рост в доходах - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:38:18,420 - INFO - Saved answer for user 1779571202: important_now = Рост в доходах - [bot_logic.py:66 in save_answer]
+2025-06-05 21:38:18,801 - INFO - Updated state for user 1779571202: {'current_question': 5, 'chat_id': 1779571202} - [db.py:95 in update_user_state]
+2025-06-05 21:38:29,700 - INFO - Message from 1779571202 (VSTOROZHEV01): Управление временем - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:38:29,744 - INFO - Saved answer for user 1779571202: assistant_goals = Управление временем - [bot_logic.py:66 in save_answer]
+2025-06-05 21:38:29,935 - INFO - Updated state for user 1779571202: {'current_question': 6, 'chat_id': 1779571202} - [db.py:95 in update_user_state]
+2025-06-05 21:38:33,006 - INFO - Message from 1779571202 (VSTOROZHEV01): Пермь - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:38:33,036 - INFO - Saved answer for user 1779571202: timezone = Пермь - [bot_logic.py:66 in save_answer]
+2025-06-05 21:38:38,462 - ERROR - Error updating state for user 1779571202: 1406 (22001): Data too long for column 'timezone' at row 1 - [db.py:122 in update_user_timezone]
+2025-06-05 21:38:38,473 - INFO - Updated state for user 1779571202: {'current_question': 7, 'chat_id': 1779571202} - [db.py:95 in update_user_state]
+2025-06-05 21:38:50,625 - INFO - Message from 1779571202 (VSTOROZHEV01): Продуктивность и фокус - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 21:38:50,657 - INFO - Saved answer for user 1779571202: target_improvement = Продуктивность и фокус - [bot_logic.py:66 in save_answer]
+2025-06-05 21:38:50,774 - INFO - Updated state for user 1779571202: {'current_question': 8, 'chat_id': 1779571202} - [db.py:95 in update_user_state]
+2025-06-05 21:38:50,792 - INFO - Updated state for user 1779571202: None - [db.py:95 in update_user_state]
+2025-06-05 21:38:50,915 - INFO - User info completed for user ID: 1779571202 - [bot_logic.py:326 in complete_user_info_collection]
+2025-06-05 21:38:55,777 - INFO - Voice message from 1779571202 (VSTOROZHEV01) - [bot_logic.py:672 in handle_voice_message]
+2025-06-05 21:38:56,806 - ERROR - Ошибка обработки голосового сообщения от 1779571202: [WinError 2] Не удается найти указанный файл - [bot_logic.py:701 in handle_voice_message]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\mymindai-main2\mymindai-main\backend\bot_logic.py", line 684, in handle_voice_message
+    convert_ogg_to_wav(ogg_path, wav_path)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\mymindai-main2\mymindai-main\backend\bot_logic.py", line 652, in convert_ogg_to_wav
+    subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1551, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] Не удается найти указанный файл
+2025-06-05 21:38:57,080 - INFO - Удалён временный файл: voices/1779571202_1749141536.ogg - [bot_logic.py:709 in handle_voice_message]
+2025-06-05 23:52:24,587 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-05 23:52:24,588 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-05 23:52:24,588 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-05 23:52:25,025 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-05 23:52:25,026 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-05 23:52:55,805 - INFO - Message from 664515772 (Zubareev_D): Да - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 23:53:08,074 - INFO - Voice message from 664515772 (Zubareev_D) - [bot_logic.py:672 in handle_voice_message]
+2025-06-05 23:53:12,400 - INFO - Распознанный текст от 664515772: раз-два-три-четыре-пять - [bot_logic.py:694 in handle_voice_message]
+2025-06-05 23:53:12,410 - INFO - Message from 664515772 (Zubareev_D): раз-два-три-четыре-пять - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 23:53:15,282 - INFO - Удалён временный файл: voices/664515772_1749149588.ogg - [bot_logic.py:709 in handle_voice_message]
+2025-06-05 23:53:15,283 - INFO - Удалён временный файл: voices/664515772_1749149588.wav - [bot_logic.py:709 in handle_voice_message]
+2025-06-05 23:53:22,696 - INFO - Voice message from 664515772 (Zubareev_D) - [bot_logic.py:672 in handle_voice_message]
+2025-06-05 23:53:24,463 - INFO - Распознанный текст от 664515772: Как меня зовут - [bot_logic.py:694 in handle_voice_message]
+2025-06-05 23:53:24,475 - INFO - Message from 664515772 (Zubareev_D): Как меня зовут - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 23:53:27,813 - INFO - Удалён временный файл: voices/664515772_1749149603.ogg - [bot_logic.py:709 in handle_voice_message]
+2025-06-05 23:53:27,814 - INFO - Удалён временный файл: voices/664515772_1749149603.wav - [bot_logic.py:709 in handle_voice_message]
+2025-06-05 23:56:15,214 - INFO - Voice message from 664515772 (Zubareev_D) - [bot_logic.py:672 in handle_voice_message]
+2025-06-05 23:56:17,883 - INFO - Распознанный текст от 664515772: Запиши в заметку то что мне надо мыть клавиатуру - [bot_logic.py:694 in handle_voice_message]
+2025-06-05 23:56:17,894 - INFO - Message from 664515772 (Zubareev_D): Запиши в заметку то что мне надо мыть клавиатуру - [bot_logic.py:339 in handle_all_messages]
+2025-06-05 23:56:22,382 - INFO - Note saved and retrieved for user 1: {'id': 2} - [db.py:626 in save_note]
+2025-06-05 23:56:22,546 - INFO - Удалён временный файл: voices/664515772_1749149775.ogg - [bot_logic.py:709 in handle_voice_message]
+2025-06-05 23:56:22,548 - INFO - Удалён временный файл: voices/664515772_1749149775.wav - [bot_logic.py:709 in handle_voice_message]
+2025-06-06 00:13:39,523 - ERROR - Критическая ошибка в работе polling: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25) - [app.py:321 in <module>]
+2025-06-06 00:13:39,523 - INFO - Бот остановлен. - [app.py:322 in <module>]

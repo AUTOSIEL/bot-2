@@ -1,0 +1,126 @@
+2025-06-07 00:11:25,287 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-07 00:11:25,287 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-07 00:11:25,288 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-07 00:11:25,660 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-07 00:11:25,661 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-07 00:11:49,725 - INFO - Message from 664515772 (Zubareev_D): Тату - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:31:17,945 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-07 00:31:17,946 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-07 00:31:17,946 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-07 00:31:18,786 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-07 00:31:18,786 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-07 00:31:29,202 - INFO - Message from 664515772 (Zubareev_D): Кто ты - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:31:51,572 - INFO - Message from 664515772 (Zubareev_D): Что ты можешь ? - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:34:02,328 - INFO - Voice message from 664515772 (Zubareev_D) - [bot_logic.py:672 in handle_voice_message]
+2025-06-07 00:34:05,696 - INFO - Распознанный текст от 664515772: Создай встречу с Димой - [bot_logic.py:694 in handle_voice_message]
+2025-06-07 00:34:05,705 - INFO - Message from 664515772 (Zubareev_D): Создай встречу с Димой - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:34:09,570 - INFO - Удалён временный файл: voices/664515772_1749238442.ogg - [bot_logic.py:709 in handle_voice_message]
+2025-06-07 00:34:09,572 - INFO - Удалён временный файл: voices/664515772_1749238442.wav - [bot_logic.py:709 in handle_voice_message]
+2025-06-07 00:34:18,775 - INFO - Message from 664515772 (Zubareev_D): Завтра в час - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:34:42,032 - INFO - Message from 664515772 (Zubareev_D): Да - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:34:48,187 - INFO - Event saved and retrieved for user 1: {'id': 3} - [db.py:592 in save_event]
+2025-06-07 00:34:58,393 - INFO - Message from 664515772 (Zubareev_D): Поставь задачу 
+Встреча с Димой - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:35:14,484 - INFO - Message from 664515772 (Zubareev_D): Запиши в заметки об этом - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:35:22,389 - INFO - Note saved and retrieved for user 1: {'id': 3} - [db.py:626 in save_note]
+2025-06-07 00:35:32,977 - INFO - Message from 664515772 (Zubareev_D): Задача с Димой - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:35:47,848 - INFO - Message from 664515772 (Zubareev_D): Создай задачу мыть дом - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:35:51,390 - INFO - Note saved and retrieved for user 1: {'id': 1} - [db.py:660 in save_task]
+2025-06-07 00:35:59,783 - INFO - Message from 664515772 (Zubareev_D): Молодца 
+Удали все это - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:36:03,257 - INFO - Remove task 1 - [db.py:239 in delete_task]
+2025-06-07 00:36:10,845 - INFO - Message from 664515772 (Zubareev_D): И все все удали - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:36:24,648 - INFO - Remove note 1 - [db.py:215 in delete_note]
+2025-06-07 00:36:24,789 - INFO - Remove note 2 - [db.py:215 in delete_note]
+2025-06-07 00:36:25,229 - ERROR - Error save msg for user 1: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`mindmyai`.`history_msgs`, CONSTRAINT `history_msgs_ibfk_2` FOREIGN KEY (`event_id`) REFERENCES `events` (`id`) ON DELETE SET NULL) - [db.py:537 in save_msg]
+2025-06-07 00:36:25,241 - INFO - Remove note 3 - [db.py:215 in delete_note]
+2025-06-07 00:36:40,350 - INFO - Message from 664515772 (Zubareev_D): События и задачи тоже - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:36:44,659 - INFO - Remove event 1 - [db.py:191 in delete_event]
+2025-06-07 00:36:44,873 - ERROR - Error save msg for user 1: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`mindmyai`.`history_msgs`, CONSTRAINT `history_msgs_ibfk_2` FOREIGN KEY (`event_id`) REFERENCES `events` (`id`) ON DELETE SET NULL) - [db.py:537 in save_msg]
+2025-06-07 00:36:44,885 - INFO - Remove event 3 - [db.py:191 in delete_event]
+2025-06-07 00:36:45,153 - ERROR - Error save msg for user 1: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`mindmyai`.`history_msgs`, CONSTRAINT `history_msgs_ibfk_2` FOREIGN KEY (`event_id`) REFERENCES `events` (`id`) ON DELETE SET NULL) - [db.py:537 in save_msg]
+2025-06-07 00:36:52,240 - INFO - Message from 664515772 (Zubareev_D): Задачу тоже - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:36:56,161 - INFO - Remove event 1 - [db.py:191 in delete_event]
+2025-06-07 00:36:56,295 - ERROR - Error save msg for user 1: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`mindmyai`.`history_msgs`, CONSTRAINT `history_msgs_ibfk_2` FOREIGN KEY (`event_id`) REFERENCES `events` (`id`) ON DELETE SET NULL) - [db.py:537 in save_msg]
+2025-06-07 00:37:04,605 - INFO - Message from 664515772 (Zubareev_D): Это удалил ? - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:37:30,113 - INFO - Message from 664515772 (Zubareev_D): Выведи что у меня есть - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:44:14,168 - INFO - Message from 664515772 (Zubareev_D): Какие режимы работы у тебя есть ? - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:44:37,670 - INFO - Message from 664515772 (Zubareev_D): В каком файле они написаны ? - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 00:56:07,476 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-07 00:56:07,477 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-07 00:56:07,478 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-07 00:56:07,811 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-07 00:56:07,811 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-07 01:00:30,520 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-07 01:00:30,533 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-07 01:00:30,537 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-07 01:00:30,992 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-07 01:00:30,993 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-07 01:00:40,255 - INFO - Message from 664515772 (Zubareev_D): А теперь ? - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 01:00:40,326 - ERROR - Error for user 664515772: 'str' object has no attribute 'get' - [bot_logic.py:367 in handle_all_messages]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\mymindai-main2\mymindai-main\backend\bot_logic.py", line 364, in handle_all_messages
+    handle_registered_user(bot, message, user_info)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\mymindai-main2\mymindai-main\backend\bot_logic.py", line 412, in handle_registered_user
+    system_prompt = get_system_prompt(name, user_data)
+  File "C:\Users\ASUS\Desktop\mymindai-main2\mymindai-main\backend\helpers\get_system_prompt.py", line 19, in get_system_prompt
+    user_id_internal = user_data.get('id')
+                       ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-06-07 01:01:23,052 - INFO - Message from 664515772 (Zubareev_D): В - [bot_logic.py:339 in handle_all_messages]
+2025-06-07 01:01:23,099 - ERROR - Error for user 664515772: 'str' object has no attribute 'get' - [bot_logic.py:367 in handle_all_messages]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\mymindai-main2\mymindai-main\backend\bot_logic.py", line 364, in handle_all_messages
+    handle_registered_user(bot, message, user_info)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\mymindai-main2\mymindai-main\backend\bot_logic.py", line 412, in handle_registered_user
+    system_prompt = get_system_prompt(name, user_data)
+  File "C:\Users\ASUS\Desktop\mymindai-main2\mymindai-main\backend\helpers\get_system_prompt.py", line 19, in get_system_prompt
+    user_id_internal = user_data.get('id')
+                       ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-06-07 01:19:32,885 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-07 01:19:32,887 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-07 01:19:32,887 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-07 01:19:34,155 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-07 01:19:34,156 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-07 01:19:41,324 - INFO - Message from 664515772 (Zubareev_D): Как ты - [bot_logic.py:282 in handle_all_messages]
+2025-06-07 01:19:41,368 - ERROR - Error for user 664515772: 'str' object has no attribute 'get' - [bot_logic.py:310 in handle_all_messages]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\mymindai-main2\mymindai-main\backend\bot_logic.py", line 307, in handle_all_messages
+    handle_registered_user(bot, message, user_info)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\Desktop\mymindai-main2\mymindai-main\backend\bot_logic.py", line 355, in handle_registered_user
+    system_prompt = get_system_prompt(name, user_data)
+  File "C:\Users\ASUS\Desktop\mymindai-main2\mymindai-main\backend\helpers\get_system_prompt.py", line 19, in get_system_prompt
+    user_id_internal = user_data.get('id')
+                       ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-06-07 01:54:29,237 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-07 01:54:29,239 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-07 01:54:29,239 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-07 01:54:29,627 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-07 01:54:29,628 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-07 01:55:15,771 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-07 01:55:15,772 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-07 01:55:15,772 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-07 01:55:16,184 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-07 01:55:16,185 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-07 01:55:19,578 - INFO - Message from 664515772 (Zubareev_D): И - [bot_logic.py:282 in handle_all_messages]
+2025-06-07 11:19:42,657 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-07 11:19:42,659 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-07 11:19:42,660 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-07 11:19:42,991 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-07 11:19:42,992 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-07 11:32:52,813 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-07 11:32:52,814 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-07 11:32:52,814 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-07 11:32:53,146 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-07 11:32:53,146 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
+2025-06-07 11:33:10,346 - INFO - Event saved and retrieved for user 1: {'id': 4} - [db.py:592 in save_event]
+2025-06-07 11:48:37,186 - INFO - Используется токен, начинающийся на: 7666167075... - [app.py:36 in <module>]
+2025-06-07 11:48:37,187 - INFO - Обработчики команд зарегистрированы. - [app.py:41 in <module>]
+2025-06-07 11:48:37,187 - INFO - Попытка снять существующий вебхук (на всякий случай)... - [app.py:306 in <module>]
+2025-06-07 11:48:37,540 - INFO - Вебхук не был установлен, или URL уже пуст. - [app.py:313 in <module>]
+2025-06-07 11:48:37,540 - INFO - Бот запускается в режиме polling... - [app.py:317 in <module>]
